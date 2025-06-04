@@ -24,12 +24,12 @@ time.sleep(3)
 
 # Passo 2: Fazer login
 # selecionar o campo de email
-pyautogui.click(x=685, y=451)
+pyautogui.click(x=872, y=464)
 # escrever o seu email
 pyautogui.write("ftozadori@gmail.com")
 pyautogui.press("tab") # passando pro próximo campo
 pyautogui.write("123456")
-pyautogui.click(x=955, y=638) # clique no botao de login
+pyautogui.click(x=954, y=616) # clique no botao de login
 time.sleep(3)
 
 # Passo 3: Importar a base de produtos pra cadastrar
