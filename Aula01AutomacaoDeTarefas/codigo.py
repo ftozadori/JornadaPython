@@ -31,8 +31,6 @@ pyautogui.press("tab") # passando pro próximo campo
 pyautogui.write("123456")
 pyautogui.click(x=954, y=616) # clique no botao de login
 time.sleep(3)
-pyautogui.click(x=789, y=349)
-pyautogui.write("chrome")
 
 # Passo 3: Importar a base de produtos pra cadastrar
 import pandas as pd
@@ -45,7 +43,6 @@ print(tabela)
 for linha in tabela.index:
     # clicar no campo de código
     pyautogui.click(x=789, y=349)
-    pyautogui.write("chrome")
     # pegar da tabela o valor do campo que a gente quer preencher
     codigo = tabela.loc[linha, "codigo"]
     # preencher o campo
